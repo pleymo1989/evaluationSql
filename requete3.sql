@@ -1,0 +1,2 @@
+SELECT CompanyName AS'orders', COUNT(ProductName) AS 'ProductID' FROM suppliers JOIN products ON suppliers.SupplierID= products.SupplierID 
+WHERE suppliers.Country='France' GROUP BY CompanyName ORDER BY COUNT(ProductName) DESC;

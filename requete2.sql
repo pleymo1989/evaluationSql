@@ -1,0 +1,1 @@
+SELECT productname,UnitPRICE FROM suppliers natural join  products where suppliers.CompanyName='Exotic Liquids'
